@@ -1,0 +1,40 @@
+use_shape: true
+use_global_AdaLN: true
+use_global_concat: false
+use_shape_condition: true
+shape_encoder:
+  hidden_size: 384
+  num_layers: 2
+  num_heads: 6
+  window_size: 63
+  dropout_p: 0.1
+shape_pool:
+  num_queries: 16
+  num_layers: 1
+  hidden_size: 384
+  num_heads: 6
+  dropout_p: 0.1
+global_encoder:
+  hidden_size: 384
+  num_layers: 2
+  num_heads: 6
+  window_size: 63
+  dropout_p: 0.1
+global_pool:
+  num_queries: 16
+  num_layers: 1
+  hidden_size: 384
+  num_heads: 6
+  dropout_p: 0.1
+local_encoder:
+  hidden_size: 512
+  num_layers: 6
+  num_heads: 8
+  window_size: 63
+  dropout_p: 0.1
+decoder:
+  hidden_size: 512
+  num_layers: 8
+  num_heads: 8
+  window_size: 63
+  dropout_p: 0.1

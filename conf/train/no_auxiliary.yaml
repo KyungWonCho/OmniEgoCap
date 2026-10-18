@@ -1,0 +1,6 @@
+defaults:
+  - defaults
+  - _self_
+
+lambda_fk: 0.0
+lambda_foot: 0.0

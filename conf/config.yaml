@@ -1,0 +1,8 @@
+defaults:
+  - paths: defaults
+  - diffusion: defaults
+  - model: defaults
+  - train: defaults
+  - representation: defaults
+  - augment: defaults
+  - _self_

@@ -1,0 +1,13 @@
+.vscode
+.claude
+.codex
+__pycache__
+
+data/preprocess
+data/smplh
+outputs
+
+*.h5
+*.egg-info
+*.pt
+checkpoints

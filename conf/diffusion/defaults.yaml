@@ -1,0 +1,5 @@
+steps: 1000
+noise_schedule: cosine
+predict_xstart: true
+schedule_sampler: uniform
+timestep_respacing: ddim30

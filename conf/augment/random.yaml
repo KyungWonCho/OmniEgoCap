@@ -1,0 +1,3 @@
+mode: random
+random:
+  p: 0.2

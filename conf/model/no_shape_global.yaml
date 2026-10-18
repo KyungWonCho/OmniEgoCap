@@ -1,0 +1,7 @@
+defaults:
+  - defaults
+  - _self_
+
+use_shape: false
+use_global_AdaLN: false
+use_shape_condition: false

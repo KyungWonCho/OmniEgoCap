@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omniegocap"
+version = "0.1.0"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+include = ["omniegocap*"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["omniegocap/diffusion"]
+
+[tool.ruff.lint]
+select = ["F", "E501", "W", "I", "Q"]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+multiline-quotes = "double"
+docstring-quotes = "double"
+
+[tool.ruff.lint.isort]
+known-first-party = ["omniegocap"]

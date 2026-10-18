@@ -1,0 +1,25 @@
+mode: full
+geometry:
+  yaw_half_range: [0.35, 2.15]
+  pitch_half_range: [0.35, 1.35]
+  yaw_offset_range: [-0.15, 0.15]
+  pitch_offset_min: 0.0
+  pitch_offset_max_at_min: 1.5
+  pitch_offset_max_at_max: 0.4
+  ratio_min: 0.4
+  ratio_max: 1.1
+  p_range: [2.0, 10.0]
+drop:
+  short:
+    rate: 0.05
+    mean: 2.0
+    std: 1.0
+    min_len: 1
+  long:
+    rate: 0.1
+    mean: 28.0
+    std: 25.0
+    min_len: 5
+perturbation:
+  rotation: 0.017453292519943
+  translation: 0.005

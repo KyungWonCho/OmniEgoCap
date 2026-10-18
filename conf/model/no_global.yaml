@@ -1,0 +1,5 @@
+defaults:
+  - defaults
+  - _self_
+
+use_global_AdaLN: false
